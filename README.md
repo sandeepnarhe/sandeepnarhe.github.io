@@ -1,3 +1,38 @@
+ng n devlogger
+ng g c components/navbar --skip-tests
+ng g c components/logs --skip-tests
+ng g c components/log-form --skip-tests	
+
+ng g s services/log --module=app.module
+ng build
+
+npm install bootstrap@4.0.0-beta.2 popper.js jquery font-awesome
+
+
+"styles": [
+	"src/styles.css",
+	"node_modules/bootstrap/dist/css/bootstrap.css",
+	"node_modules/font-awesome/css/font-awesome.css"
+],
+"scripts": [
+	"node_modules/jquery/dist/jquery.js",
+	"node_modules/popper.js/dist/umd/popper.js",
+	"node_modules/bootstrap/dist/js/bootstrap.js"
+]
+
+            
+--------------------
+Path Intellisense - Plugin
+elm emmet - Completion
+Auto Rename Tag
+CLT + D -- type and edit all places
+ALT + SHIFT - COPY previous lines
+-----------------------
+
+
+
+
+
 # Devlogger
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
